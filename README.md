@@ -115,3 +115,63 @@ Finalmente, se obtuvo un diseño definitivo que integra todos los componentes de
 ---
 
 ## Estructura del Proyecto
+
+### Pruebas de Funcionamiento
+
+Antes de integrar todos los componentes en un solo sistema, se realizaron pruebas individuales para verificar el correcto funcionamiento de cada dispositivo hardware:
+
+#### 1. Prueba de sensores y calibración 
+
+#### 3. Prueba de comunicación y monitoreo serial
+
+Se validó la comunicación del sistema mediante la verificación de la correcta transmisión y visualización de los datos en el monitor serial del entorno de desarrollo. Durante esta prueba se comprobó la actualización continua de las mediciones y la estabilidad de los valores adquiridos, garantizando un flujo de información confiable desde los sensores.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=lmInyBhmCW0">
+    <img src="https://img.youtube.com/vi/lmInyBhmCW0/0.jpg" width="45%">
+  </a>
+  <a href="https://www.youtube.com/watch?v=BdRN4VuZWc0">
+    <img src="https://img.youtube.com/vi/BdRN4VuZWc0/0.jpg" width="45%">
+  </a>
+</p>
+
+#### 2. Prueba previa de actuadores
+
+Se evaluó el funcionamiento del servomotor SG90 mediante la generación de señales PWM a 50 Hz, verificando un movimiento suave en el rango de 0° a 180° y ajustando los anchos de pulso correspondientes.
+
+Adicionalmente, se validó la visualización de los datos y del ángulo resultante a través de la pantalla OLED, comprobando la correcta integración entre el sistema de control y la interfaz de visualización.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=QSaBwZRhHCM">
+    <img src="https://img.youtube.com/vi/QSaBwZRhHCM/0.jpg" width="45%">
+  </a>
+  <a href="https://www.youtube.com/watch?v=mCX2ELdRrcs">
+    <img src="https://img.youtube.com/vi/mCX2ELdRrcs/0.jpg" width="45%">
+  </a>
+</p>
+
+#### 3. Integración Final
+
+Una vez validados la pantalla y el actuador por separado, se unificaron en el programa principal para coordinar el movimiento físico del servo con el indicador en pantalla.
+
+
+### Esquemático del sistema
+
+El esquemático del sistema representa la interconexión de los diferentes módulos electrónicos utilizados en el proyecto, incluyendo el microcontrolador ESP32, los sensores, los actuadores y los elementos de alimentación.
+
+En el diseño se observa la integración del ESP32 como unidad central de control, encargado de la adquisición de datos provenientes de los sensores de movimiento. Estos sensores se comunican principalmente mediante protocolos digitales como I2C, permitiendo una conexión eficiente y reduciendo el número de pines utilizados.
+
+Adicionalmente, se incluyen los actuadores del sistema, tales como el servomotor, el buzzer y los indicadores visuales, los cuales son controlados mediante señales PWM y salidas digitales del microcontrolador.
+
+El circuito también contempla los elementos necesarios para la correcta operación del sistema, como el suministro de alimentación, conexiones de referencia (GND) y posibles etapas de desacople para garantizar estabilidad en las señales. Este esquemático constituye la base para el diseño de la PCB y la implementación física del sistema, asegurando la correcta integración de todos los componentes.
+
+
+<p align="center">
+  <a href="./Imagenes/esquematico_general.pdf">
+    <img src="./Imagenes/esquematico_general.png" width="80%">
+  </a>
+</p>
+
+<p align="center">
+  📄 Ver esquemático completo en PDF
+</p>
