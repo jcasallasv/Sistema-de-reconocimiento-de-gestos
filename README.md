@@ -50,14 +50,31 @@ El sistema emplea los siguientes componentes físicos:
 #### Microcontrolador
 - ESP32-WROOM-32D
 
+<img src="./Imagenes/ESP32.jpeg" width="15%">
+
+
 #### Microprocesador
 - Raspberry Pi Zero W
 
+<img src="./Imagenes/RPIZEROW.jpeg" width="20%">
+
+
 #### Sensores
 - Sensor de movimiento MPU6050
+- Sensor de gestos APDS-9960
+
+<img src="./Imagenes/MPU6050.jpeg" width="19%">
+<img src="./Imagenes/APDS9960.jpeg" width="16%">
+
+#### Actuadores
+
 - LEDs 
 - Buzzer
-- Pantalla OLED
+- Pantalla OLED SSD1306
+- Servomotor SG90
+
+<img src="./Imagenes/Pantalla.jpeg" width="15%">
+<img src="./Imagenes/Servo.jpeg" width="15%">
 
 ### Software
 
@@ -74,8 +91,26 @@ El sistema se desarrolla utilizando diferentes herramientas de software:
 - Framework Flask para recepción de datos
 - Procesamiento y clasificación de gestos
 
-### Diseño del circuito 
-<img src="Imagenes/Diseño%20de%20Circuito.jpeg" width="50%">
+### Cambios en el diseño del circuito 
+
+Durante el desarrollo del proyecto se realizaron diversas modificaciones en el diseño del circuito, con el objetivo de mejorar la integración de los componentes, optimizar las conexiones y garantizar el correcto funcionamiento del sistema.
+
+Inicialmente, se planteó un diseño preliminar enfocado en la conexión básica de los sensores y actuadores al microcontrolador. Sin embargo, a medida que se avanzó en la implementación, se identificaron limitaciones relacionadas con la distribución de pines, la alimentación de los dispositivos y la organización general del circuito.
+
+Por esta razón, se llevaron a cabo ajustes en la conexión de periféricos, la asignación de pines del ESP32 y la integración de los módulos de comunicación y visualización.
+
+A continuación, se presentan las diferentes iteraciones del diseño:
+
+<p align="center">
+  <img src="./Imagenes/Circuito.jpeg" width="38%">
+  <img src="./Imagenes/Circuito2.jpeg" width="46%">
+</p>
+
+Finalmente, se obtuvo un diseño definitivo que integra todos los componentes del sistema de manera funcional y organizada, cumpliendo con los requerimientos del proyecto:
+
+<p align="center">
+  <img src="./Imagenes/Circuito3.jpeg" width="60%">
+</p>
 
 ---
 
