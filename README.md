@@ -75,6 +75,7 @@ El sistema se desarrolla utilizando diferentes herramientas de software:
 - Procesamiento y clasificación de gestos
 
 ### Diseño del circuito 
+<img src="Imagenes/Diseño%20de%20Circuito.jpeg" width="50%">
 
 ---
 
