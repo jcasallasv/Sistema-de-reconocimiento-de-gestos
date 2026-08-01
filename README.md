@@ -183,7 +183,7 @@ Posteriormente, y con base en el aprendizaje adquirido, el enfoque del proyecto 
 
 De esta manera, el repositorio integra tanto la etapa inicial como la solución final implementada, evidenciando el proceso completo de diseño, iteración y desarrollo del sistema.
 
-La documentación de la primera etapa puede consultarse en el siguiente enlace: [Proyecto inicial - Monitoreo ambiental](./docs/proyecto_inicial/)
+La documentación de la primera etapa puede consultarse en el siguiente enlace: [Proyecto inicial - Monitoreo ambiental](./DOCUMENTACIÓN/Primera_etapa_Monitoreo_Ambiental/)
 
 
 
