@@ -173,5 +173,19 @@ El circuito también contempla los elementos necesarios para la correcta operaci
 </p>
 
 <p align="center">
-  📄 Ver esquemático completo en PDF
+
+
+## Antecedentes y fase inicial del proyecto
+
+Durante la etapa inicial del curso se planteó el desarrollo de un sistema de monitoreo ambiental enfocado en la medición de variables como temperatura, humedad, luz y calidad del aire en espacios interiores. En esta fase se definieron los objetivos del sistema, los requerimientos funcionales y no funcionales, así como la selección de sensores y la arquitectura general del sistema. 
+
+Posteriormente, y con base en el aprendizaje adquirido, el enfoque del proyecto fue redefinido hacia el diseño de un sistema embebido inalámbrico de reconocimiento de gestos, manteniendo conceptos clave como la adquisición de señales, procesamiento de datos y comunicación entre módulos.
+
+De esta manera, el repositorio integra tanto la etapa inicial como la solución final implementada, evidenciando el proceso completo de diseño, iteración y desarrollo del sistema.
+
+La documentación de la primera etapa puede consultarse en el siguiente enlace: [Proyecto inicial - Monitoreo ambiental](./docs/proyecto_inicial/)
+
+
+
+
 </p>
