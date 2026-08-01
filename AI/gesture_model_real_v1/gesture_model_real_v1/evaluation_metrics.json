@@ -1,0 +1,35 @@
+{
+  "random_seed": 42,
+  "dataset_capture_count": 120,
+  "training_capture_count": 72,
+  "validation_capture_count": 24,
+  "test_capture_count": 24,
+  "best_epoch": 33,
+  "trained_epochs": 58,
+  "training_accuracy": 0.9166666865348816,
+  "validation_accuracy": 0.875,
+  "test_accuracy": 0.8333333134651184,
+  "test_loss": 0.34612953662872314,
+  "correct_test_predictions": 20,
+  "incorrect_test_predictions": 4,
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      2
+    ],
+    [
+      0,
+      2,
+      6
+    ]
+  ],
+  "keras_numpy_maximum_probability_difference": 1.7881393432617188e-07,
+  "keras_numpy_predictions_match": true,
+  "keras_numpy_probabilities_match": true
+}

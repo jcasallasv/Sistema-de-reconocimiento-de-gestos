@@ -1,0 +1,42 @@
+{
+  "package_name": "gesture_model_synthetic_v1",
+  "package_version": "synthetic_v1",
+  "created_utc": "2026-07-28T21:15:05.239295+00:00",
+  "model_type": "1D CNN",
+  "input_shape": [
+    100,
+    6
+  ],
+  "labels": [
+    "left",
+    "right",
+    "up"
+  ],
+  "files": [
+    {
+      "file_name": "gesture_cnn_synthetic.keras",
+      "size_bytes": 66914,
+      "sha256": "c36150daa7749a329cc41fe4a4a0c520bb6cc28365df68e913a392a69ac2dc92"
+    },
+    {
+      "file_name": "gesture_cnn_synthetic.tflite",
+      "size_bytes": 15484,
+      "sha256": "964195501bbe8c84106e11829c98d818f7c837902ccf2cf34004afb1573f342e"
+    },
+    {
+      "file_name": "gesture_labels.json",
+      "size_bytes": 55,
+      "sha256": "055777bde0379e99e06e64ad5622427856f1f56533fa855259c07f9e9310c49f"
+    },
+    {
+      "file_name": "normalization_parameters.json",
+      "size_bytes": 411,
+      "sha256": "18673f66d8df2cc13d4f8e794b86c997192e01d5e1194536bb31be0f5e087a32"
+    },
+    {
+      "file_name": "model_config.json",
+      "size_bytes": 362,
+      "sha256": "9c79f993f367bd2d6d81b15bfb6b7bc1d44b41ede72d23f3b52274d4dad2f867"
+    }
+  ]
+}

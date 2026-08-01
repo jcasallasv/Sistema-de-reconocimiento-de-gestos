@@ -1,0 +1,17 @@
+{
+  "labels": [
+    "left",
+    "right",
+    "up"
+  ],
+  "label_to_index": {
+    "left": 0,
+    "right": 1,
+    "up": 2
+  },
+  "index_to_label": {
+    "0": "left",
+    "1": "right",
+    "2": "up"
+  }
+}

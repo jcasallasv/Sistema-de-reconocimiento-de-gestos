@@ -1,0 +1,60 @@
+{
+  "project_name": "Wireless Embedded Gesture Recognition System",
+  "model_version": "real_v1",
+  "model_type": "CNN_1D",
+  "input_shape": [
+    100,
+    6
+  ],
+  "output_classes": [
+    "left",
+    "right",
+    "up"
+  ],
+  "sensor_channels": [
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz"
+  ],
+  "sample_rate_hz": 50,
+  "samples_per_capture": 100,
+  "architecture": [
+    {
+      "type": "Conv1D",
+      "filters": 16,
+      "kernel_size": 5,
+      "activation": "relu",
+      "padding": "valid"
+    },
+    {
+      "type": "MaxPooling1D",
+      "pool_size": 2,
+      "stride": 2
+    },
+    {
+      "type": "Conv1D",
+      "filters": 32,
+      "kernel_size": 3,
+      "activation": "relu",
+      "padding": "valid"
+    },
+    {
+      "type": "GlobalAveragePooling1D"
+    },
+    {
+      "type": "Dense",
+      "units": 16,
+      "activation": "relu"
+    },
+    {
+      "type": "Dense",
+      "units": 3,
+      "activation": "softmax"
+    }
+  ],
+  "parameter_count": 2643,
+  "inference_engine_for_raspberry": "numpy_cnn_1d"
+}

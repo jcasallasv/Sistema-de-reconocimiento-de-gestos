@@ -1,0 +1,42 @@
+{
+  "package_name": "gesture_model_real_v1",
+  "model_version": "real_v1",
+  "artifacts": {
+    "evaluation_metrics.json": {
+      "size_bytes": 713,
+      "sha256": "8ED07DE353F9AC58DC8195C9704139AB4DBC26DE57EC89E1D6E62247B8ED0982"
+    },
+    "gesture_cnn_numpy_weights.npz": {
+      "size_bytes": 11628,
+      "sha256": "694B09D567D476C67576A28C1F4977A658F4DCD2B71C6591D2C0B1F37795EE53"
+    },
+    "gesture_cnn_real.keras": {
+      "size_bytes": 66933,
+      "sha256": "6A00562B962897E104CDE9C50BEC803875EB5D48FC596ECBCCBEDF1316582F4A"
+    },
+    "gesture_cnn_real.tflite": {
+      "size_bytes": 15804,
+      "sha256": "44A911CF0B664C031CCC54FBF3BCA4D8B2140D1EEB37968D611F242AA095BE52"
+    },
+    "gesture_labels.json": {
+      "size_bytes": 201,
+      "sha256": "9D0970A80061362EA1E50200FAA2AF00ECF8699D1E24911E46F994011B8BD793"
+    },
+    "model_config.json": {
+      "size_bytes": 1039,
+      "sha256": "9FE2C9A4B04B85C625E0E4EE14044BB07587D7A2DA9FE86090314C513EBC70DF"
+    },
+    "normalization_parameters.json": {
+      "size_bytes": 471,
+      "sha256": "BC6EE6109E82F61327DA8A1ED122F520AD4CC44C1898F4F5CF8C45E488AA4C5C"
+    },
+    "split_manifest.json": {
+      "size_bytes": 4979,
+      "sha256": "F5E1DA7A9A4259AEFD617D78FDD3C78974BAE8C0F5D2EF040217C69456B8E961"
+    },
+    "training_history.json": {
+      "size_bytes": 5390,
+      "sha256": "1092099EB79B759565574E330B777DD5BE0A68BE4CFEE90EDD379F3C9C3B3141"
+    }
+  }
+}

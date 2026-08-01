@@ -1,0 +1,22 @@
+{
+  "model_name": "gesture_cnn_1d",
+  "model_version": "synthetic_v1",
+  "input_shape": [
+    100,
+    6
+  ],
+  "output_classes": 3,
+  "sample_rate_hz": 50,
+  "sample_interval_ms": 20,
+  "capture_duration_ms": 2000,
+  "samples_per_capture": 100,
+  "sensor_channels": [
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz"
+  ],
+  "raw_format": "raw_int16"
+}
