@@ -1,0 +1,27 @@
+{
+  "project_name": "Wireless Embedded Gesture Recognition System",
+  "dataset_version": "1.0",
+  "gesture_labels": [
+    "left",
+    "right",
+    "up"
+  ],
+  "sensor_channels": [
+    "ax",
+    "ay",
+    "az",
+    "gx",
+    "gy",
+    "gz"
+  ],
+  "sensor_value_format": "raw_int16",
+  "sample_rate_hz": 50,
+  "sample_interval_ms": 20,
+  "capture_duration_ms": 2000,
+  "samples_per_capture": 100,
+  "minimum_captures_per_label": 30,
+  "target_captures_per_label": 40,
+  "orientation_rule": "Keep the MPU6050 in the same hand and physical orientation for every capture.",
+  "capture_rule": "Press the button, perform one complete gesture during the capture window, and return the sensor to its initial position.",
+  "storage_directory": "/home/salo/embedded_gesture_system/dataset/raw"
+}
