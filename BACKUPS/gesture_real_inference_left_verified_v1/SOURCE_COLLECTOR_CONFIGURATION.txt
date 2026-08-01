@@ -1,0 +1,11 @@
+﻿Dataset Collector WiFi Configuration
+====================================
+
+Raspberry Pi hostname: embebidos-pi
+Current Raspberry Pi IP: 172.20.10.7
+Dataset endpoint: /api/dataset
+Capture protocol: simultaneous MPU6050 and APDS-9960
+Samples per capture: 100
+Sample rate: 50 Hz
+
+Do not include WiFi credentials in documentation or public backups.

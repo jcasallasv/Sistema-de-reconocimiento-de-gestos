@@ -1,0 +1,16 @@
+[Unit]
+Description=Embedded Gesture Recognition Flask Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=salo
+WorkingDirectory=/home/salo/embedded_gesture_system
+ExecStart=/home/salo/embedded_gesture_system/.venv/bin/python /home/salo/embedded_gesture_system/app.py
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
